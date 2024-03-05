@@ -1,4 +1,4 @@
-![](https://banners.beyondco.de/Custom%20Morph%20Map.png?theme=light&packageManager=composer+require&packageName=mcucen%2Flaravel-morphmap&pattern=anchorsAway&style=style_1&description=Custom+morphMap+for+each+relation&md=1&showWatermark=0&fontSize=100px&images=link)
+![](https://banners.beyondco.de/Custom%20Morph%20Map.png?theme=light&packageManager=composer+require&packageName=moneo%2Flaravel-morphmap&pattern=anchorsAway&style=style_1&description=Custom+morphMap+for+each+relation&md=1&showWatermark=0&fontSize=100px&images=link)
 
 # Laravel Custom Morph Map
 
@@ -11,7 +11,7 @@ PS: By default, Laravel does not support custom mapping for each relation.
 
 ## Installation
 
-    composer require mcucen/laravel-morphmap
+    composer require moneo/laravel-morphmap
 
 ## Usage
 ```php
@@ -127,4 +127,4 @@ categoryables
 | 2           | 1               | video             |
 
 ## Contributing
-Contributions are always welcome, [thanks to all of our contributors](https://github.com/mcucen/laravel-morphmap/graphs/contributors)!
+Contributions are always welcome, [thanks to all of our contributors](https://github.com/moneo/laravel-morphmap/graphs/contributors)!
