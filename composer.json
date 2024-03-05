@@ -1,0 +1,22 @@
+{
+  "name": "mcucen/laravel-morphmap",
+  "description": "Custom morphMap support for Laravel Framework",
+  "type": "library",
+  "version": "1.0.0",
+  "autoload": {
+    "psr-4": {
+      "MCUCEN\\LaravelMorphMap\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Mücahit Cücen",
+      "email": "mucahitcucen@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=8.0.0",
+    "illuminate/database": "^8.12|^9.0|^10.0|^11.0"
+  }
+}
