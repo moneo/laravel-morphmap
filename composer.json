@@ -2,7 +2,7 @@
   "name": "moneo/laravel-morphmap",
   "description": "Custom morphMap support for Laravel Framework",
   "type": "library",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "autoload": {
     "psr-4": {
       "Moneo\\LaravelMorphMap\\": "src/"
