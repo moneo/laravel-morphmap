@@ -1,5 +1,7 @@
 <?php
 
+namespace MCUCEN\LaravelMorphMap\Database\Eloquent\Concerns;
+
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Illuminate\Database\Eloquent\Relations\Relation;
 
