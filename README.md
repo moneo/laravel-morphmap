@@ -1,4 +1,5 @@
 ![](https://banners.beyondco.de/Custom%20Morph%20Map.png?theme=light&packageManager=composer+require&packageName=mcucen%2Flaravel-morphmap&pattern=anchorsAway&style=style_1&description=Custom+morphMap+for+each+relation&md=1&showWatermark=0&fontSize=100px&images=link)
+
 # Laravel Custom Morph Map
 
 This package provides use different `morphMap` for different relationships.
