@@ -6,20 +6,20 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Moneo\LaravelMorphMap\Database\Eloquent\Concerns\HasCustomMorphMap;
 
-class Post extends Model
+class Video extends Model
 {
     use HasCustomMorphMap;
 
     protected $fillable = ['title'];
 
-    protected $table = 'posts';
+    protected $table = 'videos';
 
     public function __construct(array $attributes = [])
     {
         parent::__construct($attributes);
 
         $this->customMorphMap = [
-            Category::class => 'post',
+            Category::class => 'video',
         ];
     }
 

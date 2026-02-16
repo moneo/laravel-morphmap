@@ -6,21 +6,21 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
 use Moneo\LaravelMorphMap\Database\Eloquent\Concerns\HasCustomMorphMap;
 
-class Tag extends Model
+class Category extends Model
 {
     use HasCustomMorphMap;
 
     protected $fillable = ['name'];
 
-    protected $table = 'tags';
+    protected $table = 'categories';
 
     public function posts(): MorphToMany
     {
-        return $this->morphedByMany(Post::class, 'taggable');
+        return $this->morphedByMany(Post::class, 'categoryable');
     }
 
     public function videos(): MorphToMany
     {
-        return $this->morphedByMany(Video::class, 'taggable');
+        return $this->morphedByMany(Video::class, 'categoryable');
     }
 }

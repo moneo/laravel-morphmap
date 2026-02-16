@@ -1,2 +1,8 @@
-.idea
-vendor
+/.idea
+/vendor
+/.phpunit.cache
+/.phpunit.result.cache
+/build
+/composer.lock
+/.php-cs-fixer.cache
+/phpunit.xml

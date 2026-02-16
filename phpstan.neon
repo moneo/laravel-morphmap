@@ -1,0 +1,14 @@
+parameters:
+    paths:
+        - src
+    level: max
+    ignoreErrors:
+        -
+            identifier: trait.unused
+            reportUnmatched: false
+        -
+            identifier: missingType.generics
+            reportUnmatched: false
+        -
+            identifier: argument.templateType
+            reportUnmatched: false
